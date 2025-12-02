@@ -46,7 +46,6 @@
     grid-row: 4;
     padding-bottom: 50px;
 
-<<<<<<< Updated upstream
 }
 
 .card1 {
@@ -98,15 +97,4 @@
 .navAlignText{
     display: flex;
    align-items: right;
-=======
-grid-row: 4;
-grid-column: 3;
-}
-
-.footer {
-  background-color: #ede7f4;    
-  
-  text-align: center;
-  font-family: "Georgia", serif; 
->>>>>>> Stashed changes
 }
