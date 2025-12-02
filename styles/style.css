@@ -1,47 +1,66 @@
-.main-grid{
+.main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
-.hero-grid{
-    grid-row: 1;
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-row: 2;
     grid-column: span 3;
     min-height: 50%;
 
 }
-.text{
-font-family: 'Times New Roman', Times, serif;
-grid-row: 2;
-grid-column: span 3;
-justify-content: center;
-padding-right: 50px;
-padding-left: 50px;
-font-size: 40px;
-justify-content: center;
 
-
+.hero-img {
+    grid-column: 1;
+    grid-row: 2;
 
 }
 
-.carousel{
-grid-column: span 3;
-grid-row: 3;
-padding-bottom: 50px;
-
-}
-.card1{
-grid-row: 4;
-grid-column: 1;
+.h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(rgb(98, 92, 92));
 }
 
-.card2{
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    grid-row: 3;
+    grid-column: span 3;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 40px;
+    justify-content: center;
 
-grid-row: 4;
-grid-column: 2;
 }
 
-.card3{
+.carousel {
+    grid-column: span 3;
+    grid-row: 4;
+    padding-bottom: 50px;
 
-grid-row: 4;
-grid-column: 3;
+}
+
+.card1 {
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.card2 {
+
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.card3 {
+
+    grid-row: 5;
+    grid-column: 3;
 }
