@@ -41,10 +41,11 @@
     grid-column: 1;
     grid-row: 2;
     background-color: rgb(rgb(98, 92, 92));
+    font-family: "Irish Grover", system-ui;
 }
 
 .text {
-    font-family: 'Times New Roman', Times, serif;
+   font-family: "Crimson Pro", serif;
     grid-row: 3;
     grid-column: span 3;
     justify-content: center;
@@ -52,6 +53,7 @@
     padding-left: 50px;
     font-size: 40px;
     justify-content: center;
+      min-height: 50%;
 
 }
 
@@ -59,24 +61,32 @@
     grid-column: span 3;
     grid-row: 4;
     padding-bottom: 50px;
+      min-height: 50%;
 
 }
 
 .card1 {
     grid-row: 5;
     grid-column: 1;
+     font-family: "Crimson Pro", serif;
+     font-style: normal;
+     
 }
 
 .card2 {
 
     grid-row: 5;
     grid-column: 2;
+     font-family: "Crimson Pro", serif;
+     font-style: normal;
 }
 
 .card3 {
 
     grid-row: 5;
     grid-column: 3;
+     font-family: "Crimson Pro", serif;
+     font-style: normal;
 }
 
 
