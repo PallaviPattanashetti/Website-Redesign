@@ -4,23 +4,33 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 .hero-grid{
+    grid-row: 1;
 
 }
 .text{
 
+grid-row: 2;
 
+}
+
+.carousel{
+
+grid-row: 3;
 
 }
 .card1{
-
+grid-row: 4;
+grid-column: 1;
 }
 
 .card2{
 
-
+grid-row: 4;
+grid-column: 2;
 }
 
 .card3{
 
-
+grid-row: 4;
+grid-column: 3;
 }
