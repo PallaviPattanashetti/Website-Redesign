@@ -163,3 +163,23 @@ footer{
 .navAlignText{
     display: flex;
 }
+
+.navRightText{
+    font-size: 24px;
+}
+.navTitleText{
+    font-size: 35px;
+    filter: drop-shadow(3px 5px 2px #8d8686);
+}
+.navColor{
+    background-color: #D9D3DE;
+}
+.navCorrect{
+    padding-top:0;
+    padding-bottom: 0;
+}
+.eyeSize{
+    width: 22px;
+    padding: 0px;
+    filter: drop-shadow(3px 5px 2px #8d8686);
+}
