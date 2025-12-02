@@ -1,3 +1,16 @@
+
+.irish-grover {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.crimson-pro{
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -96,5 +109,4 @@
 
 .navAlignText{
     display: flex;
-   align-items: right;
 }
