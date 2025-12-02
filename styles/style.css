@@ -6,16 +6,19 @@
 .hero-grid{
     grid-row: 1;
     grid-column: span 3;
+    min-height: 50%;
 
 }
 .text{
-
+font-family: 'Times New Roman', Times, serif;
 grid-row: 2;
 grid-column: span 3;
-display: flex;
 justify-content: center;
 padding-right: 50px;
 padding-left: 50px;
+font-size: 40px;
+justify-content: center;
+
 
 
 }
@@ -23,6 +26,7 @@ padding-left: 50px;
 .carousel{
 grid-column: span 3;
 grid-row: 3;
+padding-bottom: 50px;
 
 }
 .card1{
