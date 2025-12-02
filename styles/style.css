@@ -60,7 +60,7 @@
     padding-bottom: 50px;
 
 }
-
+/*--------------------------CARD------------------------------*/
 .card1 {
     grid-row: 5;
     grid-column: 1;
@@ -76,6 +76,48 @@
 
     grid-row: 5;
     grid-column: 3;
+}
+/*------------------FOOTER-------------------------------------*/
+footer{
+    background-color: lavender;
+    text-align: center;
+}
+
+.footer-display{
+    display:flex;
+    justify-content: center;
+}
+
+.footer-col1{
+    font-size: 25px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 120px;
+}
+
+.footer-col2{
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 80px;
+}
+
+.footer-col3{
+    font-size: 25px;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.footer-quote{
+    padding: 70px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/*--------------------CLASS-------------------------*/
+.class-img {
+  max-width: 100%;
 }
 
 
