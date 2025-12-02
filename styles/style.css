@@ -5,16 +5,23 @@
 }
 .hero-grid{
     grid-row: 1;
+    grid-column: span 3;
 
 }
 .text{
 
 grid-row: 2;
+grid-column: span 3;
+display: flex;
+justify-content: center;
+padding-right: 50px;
+padding-left: 50px;
+
 
 }
 
 .carousel{
-
+grid-column: span 3;
 grid-row: 3;
 
 }
