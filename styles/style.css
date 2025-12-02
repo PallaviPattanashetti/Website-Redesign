@@ -64,3 +64,37 @@
     grid-row: 5;
     grid-column: 3;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navAlignText{
+    display: flex;
+   align-items: right;
+}
