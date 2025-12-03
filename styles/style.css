@@ -127,10 +127,10 @@ footer {
 }
 .col-class1{
     background-color: pink;
-    padding: 100px;
-    gap:100px;
-    margin-right: 50px;
-    border-radius: 10%;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+    border-radius: 15px;
     font-family: irish-grover;
     font-weight: bolder;
     text-align: center;
@@ -139,10 +139,10 @@ footer {
 }
 .col-class2{
     background-color: pink;
-    padding: 100px;
-    gap:50px;
-    margin-right: 50px;
-    border-radius: 10%;
+    padding: 50px;
+    margin-left: 70px;
+    margin-right: 100px;
+    border-radius: 15px;
     font-family:irish-grover;
     font-weight: bolder;
     text-align:center;
@@ -154,6 +154,7 @@ footer {
     background-color: rgb(157, 208, 157);
     margin-top: 25px;
     margin-bottom: 45px;
+    border-radius: 15px;
 }
 
 .teacher-text{
@@ -169,6 +170,15 @@ footer {
     padding: 50px;
     font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
 
 .navAlignText {
     font-family: "Crimson Pro", serif;
@@ -347,4 +357,20 @@ font-family: "Irish Grover", system-ui;
 .inventory-img-overlay{
     color: white;
     font-family: irish-grover;
+}
+
+.grid-container{
+   display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap:70px;
+}
+
+@media (max-width: 425px){
+    .grid-container{
+   display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap:70px;
+}
 }
