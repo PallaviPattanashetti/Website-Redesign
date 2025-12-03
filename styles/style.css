@@ -10,110 +10,117 @@
     font-style: normal;
 }
 
-body{
+body {
     background-color: #F5F5E2;
 }
 
 /*-home page starts-*/
+p {
+    font-size: 28px;
+    font-family: "Crimson Pro", serif;
+    align-items: center;
+
+}
+.homepage-p {
+
+font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.text-img{
+width: 100%;
+background-color:#ACCEAC;
+
+ } 
+ .background{
+width: 32%;
+height: 140%;
+ background-color:#ACCEAC;
+ margin-right: 10px;
+ }
+ .image-div{
+padding-top: 15px;
+
+ }
+ .img-text{
+
+   
+
+ }
 
 /*------------------FOOTER-------------------------------------*/
-footer{
-    background-color: #D9D3DE;;
+footer {
+    background-color: #D9D3DE;
+    ;
     text-align: center;
 }
 
-.footer-display{
-    display:flex;
+.footer-display {
+    display: flex;
     justify-content: center;
 }
 
-.footer-col1{
+.footer-col1 {
     font-size: 25px;
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 120px;
 }
 
-.footer-col2{
+.footer-col2 {
     font-size: 25px;
     padding-top: 50px;
     padding-left: 0px;
     padding-right: 80px;
 }
 
-.footer-col3{
+.footer-col3 {
     font-size: 25px;
     padding-top: 100px;
     padding-left: 80px;
     padding-right: 100px;
 }
 
-.footer-quote{
+.footer-quote {
     padding: 70px;
     font-size: 18px;
     font-weight: bolder;
 }
 
 /*--------------------CLASS-------------------------*/
-.container-grid{
-display: grid;
-grid-template-column: 1fr;
+.container-grid {
+    display: grid;
+    grid-template-column: 1fr;
 
 }
+
 .class-img {
-  max-width: 100%;
-  height: 500px;
-  padding-left: 0;
-  padding-right: 0;
-  grid-column:1;
-grid-row: 1;
+    max-width: 100%;
+    height: 500px;
+    padding-left: 0;
+    padding-right: 0;
+    grid-column: 1;
+    grid-row: 1;
 }
 
-.textBox{
-display:flex;
-align-item: center;
-justify-content: center;
-grid-column: 1;
-grid-row: 1;
+.textBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.navAlignText{
+.navAlignText {
     font-family: "Crimson Pro", serif;
     font-style: normal;
     height: 100%;
     width: 100%;
 }
+
 /* home page ends*/
+
+
 /*-market Days starts--*/
 
 .heroCont {
@@ -143,17 +150,27 @@ grid-row: 1;
     justify-content: center;
     margin-top: 0;
     margin-bottom: 30px;
-     background-color: seagreen;
-   
+    background-color:#ACCEAC;
+
+
 }
 
+h2{
+padding-top: 5%;
+padding-bottom: 5%;
+font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
 .img-text {
     margin-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
     margin-bottom: 30px;
-   width: 90%;
+    width: 90%;
     height: 100%;
+      font-family: "Crimson Pro", serif;
 }
 
 
@@ -165,38 +182,45 @@ grid-row: 1;
     display: flex;
 }
 
-.navRightText{
+.navRightText {
     font-size: 24px;
 }
-.navTitleText{
+
+.navTitleText {
     font-size: 35px;
     filter: drop-shadow(3px 5px 2px #8d8686);
 }
-.navColor{
+
+.navColor {
     background-color: #D9D3DE;
 }
-.navCorrect{
-    padding-top:0;
+
+.navCorrect {
+    padding-top: 0;
     padding-bottom: 0;
 }
-.eyeSize{
+
+.eyeSize {
     width: 22px;
     padding: 0px;
     filter: drop-shadow(3px 5px 2px #8d8686);
 }
-.headerGrid{
+
+.headerGrid {
     display: grid;
 }
-.inventoryHeaderImg{
+
+.inventoryHeaderImg {
     padding-left: 0;
     padding-right: 0;
     opacity: 50%;
     width: 100%;
     grid: 1/1;
 }
- .headerbox{
-     width:100%;
+
+.headerbox {
+    width: 100%;
     background-color: black;
     /* opacity: 50%; */
     grid: 1/1;
-} 
+}
