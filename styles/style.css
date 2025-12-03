@@ -58,6 +58,9 @@ align-self: center;
 /*------------------FOOTER-------------------------------------*/
 footer {
     background-color: #D9D3DE;
+}
+footer {
+    background-color: #D9D3DE;
     ;
     text-align: center;
 }
@@ -174,6 +177,7 @@ footer {
     width: 100%;
 }
 
+
 /* home page ends*/
 
 
@@ -226,6 +230,7 @@ font-family: "Irish Grover", system-ui;
     margin-bottom: 0;
     margin-bottom: 30px;
     width: 90%;
+    width: 90%;
     height: 100%;
     font-family: "Crimson Pro", serif;
 }
@@ -236,7 +241,7 @@ font-family: "Irish Grover", system-ui;
 /*-market Days End-*/
 
 
-
+/* inventory start */
 .navAlignText {
     display: flex;
 }
@@ -256,6 +261,9 @@ font-family: "Irish Grover", system-ui;
 
 .navCorrect {
     padding-top: 0;
+}
+.navCorrect {
+    padding-top: 0;
     padding-bottom: 0;
 }
 
@@ -273,11 +281,70 @@ font-family: "Irish Grover", system-ui;
     padding-left: 0;
     padding-right: 0;
     width: 100%;
-    grid: 1/1;
 }
- /* .headerbox{
-     width:100%;
-    background-color: black;
-    /* opacity: 50%; 
-    grid: 1/1;
-}  */
+
+.textBoxInv {
+   margin-top: 4%;
+   margin-bottom: 4%;
+    background-color: #B5B1B4;
+    border-radius: 15px;
+}  
+
+.textBoxLetters{
+    font-size: 35px;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.card1Bg{
+    background-color: #EBD1D1;
+}
+
+.Card1Img{
+   height: 22rem;
+   padding-top:2rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   background-color: #EBD1D1;
+}
+
+.card1Text{
+    text-align: center;
+    font-size: 40px;
+}
+
+.cardConatinerMarg{
+    margin-left: 14%;
+    margin-right:10%;
+}
+
+.row2Marg{
+    margin-top: 5rem;
+}
+
+.row4BtmMarg{
+    margin-bottom: 8rem;
+}
+
+.greenCardBg{
+    background-color: #ACCEAC;
+}
+
+.inventory-img {
+ background-image: url("../images/inventoryBgUpdate.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.inventory-img-overlay{
+    color: white;
+    font-family: irish-grover;
+}
