@@ -272,13 +272,12 @@ grid-row: 1;
 .inventoryHeaderImg{
     padding-left: 0;
     padding-right: 0;
-    opacity: 50%;
     width: 100%;
     grid: 1/1;
 }
- .headerbox{
+ /* .headerbox{
      width:100%;
     background-color: black;
-    /* opacity: 50%; */
+    /* opacity: 50%; 
     grid: 1/1;
-} 
+}  */
