@@ -33,6 +33,7 @@ font-family: "Irish Grover", system-ui;
 width: 100%;
 background-color:#ACCEAC;
 
+
  } 
  .background{
 width: 25%;
@@ -41,6 +42,7 @@ height: 100%;
  margin-right:20px;
  margin-left: 70px;
  border-radius: 2%;
+
  
  }
  .image-div{
@@ -48,10 +50,12 @@ padding-top: 15px;
 display: flex;
 align-self: center;
 
+
 }
  
 .card-paragraph{
 font-size: 20px;
+
 }
 
 
@@ -149,7 +153,7 @@ footer {
 
 .days-p {
    
-    font-size: 28px;
+    font-size: 25px;
   font-family: "Crimson Pro", serif;
     height: 100%;
     width: 100%;
@@ -157,8 +161,9 @@ footer {
     margin-bottom: 30px;
     background-color:#ACCEAC;
      border-radius: 2%;
-    
-
+    display: flex;
+   align-items: center;
+   padding-left: 2%;
 
 }.bg-tan {
     background-color:#ACCEAC;
@@ -174,15 +179,7 @@ font-family: "Irish Grover", system-ui;
     font-style: normal;
 
 }
-.img-text {
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-bottom: 30px;
 
-    height: 100%;
-    font-family: "Crimson Pro", serif;
-}
 .article-cont{
     margin-bottom: 50px;
 }
@@ -193,6 +190,14 @@ font-family: "Irish Grover", system-ui;
    margin-bottom: 10px;
    margin-top: 10px;
 
+}
+.img-text{
+padding-top: 3%;
+    padding-bottom: 5%;
+}
+.class3{
+
+    padding-bottom: 5%;
 }
 
 /*-market Days End-*/
