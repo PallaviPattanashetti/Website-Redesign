@@ -273,10 +273,12 @@ grid-row: 1;
     padding-left: 0;
     padding-right: 0;
     opacity: 50%;
-    width: 100%
+    width: 100%;
+    grid: 1/1;
 }
  .headerbox{
      width:100%;
-    color: black;
+    background-color: black;
     /* opacity: 50%; */
+    grid: 1/1;
 } 
