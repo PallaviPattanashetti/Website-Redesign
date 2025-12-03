@@ -187,3 +187,17 @@ footer{
     padding: 0px;
     filter: drop-shadow(3px 5px 2px #8d8686);
 }
+.headerGrid{
+    display: grid;
+}
+.inventoryHeaderImg{
+    padding-left: 0;
+    padding-right: 0;
+    opacity: 50%;
+    width: 100%
+}
+ .headerbox{
+     width:100%;
+    color: black;
+    /* opacity: 50%; */
+} 
