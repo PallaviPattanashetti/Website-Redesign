@@ -36,7 +36,7 @@ background-color:#ACCEAC;
  } 
  .background{
 width: 25%;
-height: 140%;
+height: 100%;
  background-color:#ACCEAC;
  margin-right:20px;
  margin-left: 70px;
@@ -54,10 +54,6 @@ align-self: center;
 font-size: 20px;
 }
 
-.boxes{
-
-    display: flex;
-}
 
 /*------------------FOOTER-------------------------------------*/
 footer {
@@ -152,18 +148,21 @@ footer {
 }
 
 .days-p {
-    font-family: "Crimson Pro", serif;
+   
     font-size: 28px;
-    font-style: normal;
+  font-family: "Crimson Pro", serif;
     height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: center;
     margin-top: 0;
     margin-bottom: 30px;
     background-color:#ACCEAC;
      border-radius: 2%;
+    
 
+
+}.bg-tan {
+    background-color:#ACCEAC;
+    padding: 0%;
 
 }
 
@@ -180,12 +179,20 @@ font-family: "Irish Grover", system-ui;
     margin-top: 0;
     margin-bottom: 0;
     margin-bottom: 30px;
-    width: 90%;
+
     height: 100%;
     font-family: "Crimson Pro", serif;
 }
 .article-cont{
     margin-bottom: 50px;
+}
+.title2{
+font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+   margin-bottom: 10px;
+   margin-top: 10px;
+
 }
 
 /*-market Days End-*/
