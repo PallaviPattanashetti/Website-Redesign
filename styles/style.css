@@ -256,6 +256,20 @@ padding-top: 3%;
     padding-bottom: 5%;
 }
 
+.market-img{
+    background-image: url("../images/MarketBgUpdate.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.market-img-overlay{
+    color:white;
+}
+
 /*-market Days End-*/
 
 
