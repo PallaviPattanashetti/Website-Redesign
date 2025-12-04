@@ -450,20 +450,19 @@ footer {
 .footer-display {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;          /* optional */
+  gap: 1rem;        
 }
 
-/* Mobile: stack columns and center them */
 @media (max-width: 768px) {
   .footer-display {
     flex-direction: column;
-    align-items: center;   /* or flex-start if you want left-align */
+    align-items: center;  
   }
 
   .footer-col1,
   .footer-col2,
   .footer-col3 {
     width: 100%;
-    text-align: center;    /* or left if you prefer */
+    text-align: center;   
   }
 }
