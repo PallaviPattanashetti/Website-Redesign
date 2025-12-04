@@ -62,6 +62,8 @@ p {
     margin-right: 20px;
     margin-left: 70px;
     border-radius: 2%;
+    flex: 0 1 30%; 
+  max-width: 350px; 
 
 
 }
@@ -403,17 +405,16 @@ footer {
     font-size: 40px;
 }
 
-.cardConatinerMarg {
-    margin-left: 14%;
-    margin-right: 10%;
+.cardConatinerMarg{
+    margin-right: 22rem; 
 }
 
-.row2Marg {
-    margin-top: 5rem;
+.row2Marg{
+    margin-top: 1rem;
 }
 
-.row4BtmMarg {
-    margin-bottom: 8rem;
+.row4BtmMarg{
+    margin-bottom: 10rem;
 }
 
 .greenCardBg {
@@ -440,7 +441,11 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 70px;
+    gap:8rem;
+}
+
+.headFont{
+    font-size: 70px;
 }
 
 @media (max-width: 425px) {
