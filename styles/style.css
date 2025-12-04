@@ -97,11 +97,6 @@ margin-bottom: 40px;
 /*------------------FOOTER-------------------------------------*/
 footer {
     background-color: #D9D3DE;
-}
-
-footer {
-    background-color: #D9D3DE;
-    ;
     text-align: center;
 }
 
@@ -155,21 +150,26 @@ footer {
     font-family: irish-grover;
 }
 
+.class-text {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: #B5B1B4;
+    border-radius: 15px;
+}
 
 .class-description {
-    background-color: #B5B1B4;
-    margin-top: 25px;
-    margin-bottom: 45px;
-    border-radius: 15px;
-    padding: 70px;
-    font-family: crimson-pro;
-    margin-top: 45px;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .col-class1 {
     background-color: pink;
     padding: 50px;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-right: 100px;
     border-radius: 15px;
     font-family: irish-grover;
@@ -189,7 +189,17 @@ footer {
     font-weight: bolder;
     text-align: center;
     margin-bottom: 35px;
+}
 
+.col-title{
+    font-family: irish-grover;
+    font-weight: bolder;
+    margin-bottom: 45px;
+}
+
+.col-text{
+    font-family: irish-grover;
+    font-weight: bold;
 }
 
 .teacher-container {
@@ -445,7 +455,7 @@ footer {
 .headFont{
     font-size: 70px;
 }
-
+/*=========================MOBILE========================================*/
 @media (max-width: 425px) {
     .grid-container {
         display: grid;
@@ -453,25 +463,172 @@ footer {
         grid-template-rows: repeat(6, 1fr);
         gap: 70px;
     }
+    
+    
+    /*------------------Class Responsive-------------------*/
+    .class-text {
+    background-color: #B5B1B4;
+      height: auto;          
+        padding: 25px;         
+        margin-top: 6%;
+        margin-bottom: 6%;
 }
 
-/*--footer responsive--*/
-.footer-display {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;        
+.class-description {
+   font-size: 20px; 
+   font-weight: bold;
+        line-height: 1.4;
+        padding: 5px 0;        
+        text-align: center;
 }
 
-@media (max-width: 768px) {
-  .footer-display {
-    flex-direction: column;
-    align-items: center;  
-  }
+.col-class1 {
+     background-color: pink;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    font-family: irish-grover;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 35px;
 
-  .footer-col1,
-  .footer-col2,
-  .footer-col3 {
-    width: 100%;
-    text-align: center;   
-  }
 }
+
+.col-class2 {
+    background-color: pink;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    font-family: irish-grover;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.class-img {
+    background-image: url("../images/ClassesBGUpdate.png");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-title{
+    font-family: irish-grover;
+    font-weight: bolder;
+    margin-bottom: 45px;
+    font-size:25px;
+}
+
+.col-text{
+    font-family: irish-grover;
+    font-weight: bold;
+    font-size: 15px;
+}
+    /*------------------footer mobile responsive---------------------*/
+    
+    .footer-display {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+}
+
+
+/*=====================TABLET===============================*/
+    
+    @media (max-width: 768px) {
+        .footer-display {
+            flex-direction: column;
+            align-items: center;  
+        }
+        
+        .footer-col1,
+        .footer-col2,
+        .footer-col3 {
+            width: 100%;
+            text-align: center;   
+        }
+   /*---------------CLASS-----------------------------*/     
+ .class-text {
+    background-color: #B5B1B4;
+      height: auto;          
+        padding: 25px;         
+        margin-top: 6%;
+        margin-bottom: 5%;
+}
+
+.class-description {
+   font-size: 20px; 
+   font-weight: bold;
+        line-height: 1.4;
+        padding: 5px 0;        
+        text-align: center;
+}
+
+
+.col-class1 {
+    background-color: pink;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    font-family: irish-grover;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.col-class2 {
+    background-color: pink;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    font-family: irish-grover;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.col-title{
+    font-family: irish-grover;
+    font-weight: bolder;
+    margin-bottom: 45px;
+    font-size:30px;
+}
+
+.col-text{
+    font-family: irish-grover;
+    font-weight: bold;
+    font-size: 20px;
+}
+.class-img {
+    background-image: url("../images/ClassesBGUpdate.png");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+}
+
+    
