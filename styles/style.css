@@ -329,16 +329,15 @@ font-family: "Irish Grover", system-ui;
 }
 
 .cardConatinerMarg{
-    margin-left: 14%;
-    margin-right:10%;
+    margin-right: 22rem; 
 }
 
 .row2Marg{
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 .row4BtmMarg{
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
 }
 
 .greenCardBg{
@@ -365,7 +364,11 @@ font-family: "Irish Grover", system-ui;
    display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap:70px;
+    gap:8rem;
+}
+
+.headFont{
+    font-size: 70px;
 }
 
 @media (max-width: 425px){
