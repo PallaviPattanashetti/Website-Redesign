@@ -163,7 +163,7 @@ footer {
 }
 
 .footer-quote {
-    padding: 70px;
+    margin-top: 45px;
     font-size: 18px;
     font-weight: bolder;
 }
@@ -487,9 +487,7 @@ footer {
 .headFont {
     font-size: 70px;
 }
-.cardSize{
-    width: 100%;
-}
+
 
 @media (max-width: 1024px) {
     .grid-container {
@@ -498,23 +496,30 @@ footer {
     grid-template-rows: repeat(4, 1fr);
     gap: 4rem;
 }
+
+.headFont{
+    font-size: 70px;
 }
-
-
-
-
-
-
-
-
 /*=========================MOBILE========================================*/
 @media (max-width: 425px) {
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        grid-template-rows: repeat(12, 1fr);
-    
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 70px;
     }
+
+    .mobile-toggle {
+    display: block;
+  }
+
+   .navbar-collapse {
+    padding: 10px;
+  }
+
+
+
+
     
     
     /*------------------Class Responsive-------------------*/
@@ -601,17 +606,31 @@ footer {
 /*=====================TABLET===============================*/
     
     @media (max-width: 768px) {
-        .footer-display {
-            flex-direction: column;
-            align-items: center;  
-        }
+        footer {
+    background-color: #D9D3DE;
+    text-align: center;
+}
+
+.footer-display {
+    display: flex;
+    justify-content: center;
+}
         
         .footer-col1,
         .footer-col2,
         .footer-col3 {
-            width: 100%;
             text-align: center;   
         }
+
+    /*---------------NAVBAR---------------------------*/
+      .mobile-toggle {
+    display: block;
+  }
+
+   .navbar-collapse {
+    padding: 10px;
+  }
+
    /*---------------CLASS-----------------------------*/     
  .class-text {
     background-color: #B5B1B4;
@@ -720,8 +739,8 @@ footer {
 
 .grid-container {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         gap: 15px;
     }    
 .cardAlign{
@@ -732,3 +751,5 @@ footer {
 }
 }
 
+
+}
