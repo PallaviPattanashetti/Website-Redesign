@@ -269,7 +269,13 @@ padding-top: 3%;
 .market-img-overlay{
     color:white;
 }
-
+@media (max-width: 991.98px) { 
+  .navAlignText {
+    flex-direction: column;
+    align-items: flex-end; 
+  }
+}
+                            
 /*-market Days End-*/
 
 
