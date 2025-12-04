@@ -289,12 +289,7 @@ footer {
     margin-bottom: 0;
 }
 
-.header {
-    font-family: "Irish Grover", system-ui;
-    font-weight: 400;
-    font-style: normal;
 
-}
 
 .days-p {
 
@@ -307,14 +302,17 @@ footer {
     background-color: #ACCEAC;
     border-radius: 2%;
     display: flex;
-    align-items: center;
+    justify-content: center;
     padding-left: 2%;
+    line-height: 2.0;
 
 }
 
 .bg-tan {
     background-color: #ACCEAC;
     padding: 0%;
+ 
+    
 
 }
 
