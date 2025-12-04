@@ -25,7 +25,6 @@ body {
     align-items: center;
 
 }
-
 .home-title {
 
     font-family: "Irish Grover", system-ui;
@@ -37,8 +36,6 @@ body {
 .titlepage {
     font-size: 28px;
     font-family: "Crimson Pro", serif;
-
-
 }
 
 .homepage-p {
@@ -288,9 +285,6 @@ footer {
     position: relative;
     margin-bottom: 0;
 }
-
-
-
 .days-p {
 
     font-size: 25px;
@@ -304,16 +298,11 @@ footer {
     display: flex;
     justify-content: center;
     padding-left: 2%;
-   
-
 }
 
 .bg-tan {
     background-color: #ACCEAC;
     padding: 0%;
- 
-    
-
 }
 
 .welcome-text {
@@ -517,13 +506,7 @@ footer {
    .navbar-collapse {
     padding: 10px;
   }
-
-
-
-
-    
-    
-    /*------------------Class Responsive-------------------*/
+ /*------------------Class Responsive-------------------*/
     .class-text {
     background-color: #B5B1B4;
       height: auto;          
@@ -697,9 +680,7 @@ footer {
     padding-left: 30px;
     padding-right: 100px;
 }
-        
-        
-    /*---------------NAVBAR---------------------------*/
+         /*---------------NAVBAR---------------------------*/
       .mobile-toggle {
     display: block;
   }
