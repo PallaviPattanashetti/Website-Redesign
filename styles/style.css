@@ -498,6 +498,7 @@ footer {
 .headFont{
     font-size: 70px;
 }
+}
 /*=========================MOBILE========================================*/
 @media (max-width: 425px) {
     .grid-container {
@@ -587,14 +588,41 @@ footer {
     /*------------------footer mobile responsive---------------------*/
     
     .footer-display {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;   /* stack columns */
+    align-items: center;      /* center them */
+    flex-wrap: wrap;
+
+}
+
+    footer {
+    background-color: #D9D3DE;
+    text-align: center;
+    width: 100%;
 }
 
 
+.footer-col1 {
+    font-size: 18px;
+    padding-top: 20px;       
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 50px;
+}
 
+.footer-col2 {
+    font-size: 15px;
+    padding-top: 20px;        
+    padding-left: 0;
+    padding-right: 0;
+}
 
-
+.footer-col3 {
+    font-size: 18px;
+     padding-top: 20px;        
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 50px; 
+}
 
 
 
@@ -636,12 +664,7 @@ footer {
     padding-right: 100px;
 }
         
-        .footer-col1,
-        .footer-col2,
-        .footer-col3 {
-            text-align: center;   
-        }
-
+        
     /*---------------NAVBAR---------------------------*/
       .mobile-toggle {
     display: block;
@@ -717,13 +740,6 @@ footer {
 }
 
 
-
-
-
-
-
-    
-
     .textBoxLetters {
         font-size: 35px;
         text-align: center;
@@ -756,4 +772,3 @@ footer {
 }
 
 
-}
