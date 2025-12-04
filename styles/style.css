@@ -445,3 +445,25 @@ footer {
         gap: 70px;
     }
 }
+
+/*--footer responsive--*/
+.footer-display {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;          /* optional */
+}
+
+/* Mobile: stack columns and center them */
+@media (max-width: 768px) {
+  .footer-display {
+    flex-direction: column;
+    align-items: center;   /* or flex-start if you want left-align */
+  }
+
+  .footer-col1,
+  .footer-col2,
+  .footer-col3 {
+    width: 100%;
+    text-align: center;    /* or left if you prefer */
+  }
+}
