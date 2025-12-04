@@ -15,50 +15,84 @@ body {
 }
 
 /*-home page starts-*/
-p {
-    font-size: 28px;
-    font-family: "Crimson Pro", serif;
+.home-img {
+    background-image: url("../images/Selenite.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 
 }
+
+.home-title {
+
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-size: 28px;
+    font-family: "Crimson Pro", serif;
+
+
+}
+
 .homepage-p {
 
-font-family: "Irish Grover", system-ui;
+    font-family: "Irish Grover", system-ui;
     font-weight: 400;
-   padding-top: 5%;
+    padding-top: 5%;
     padding-bottom: 5%;
-  
+
 }
-.text-img{
-width: 100%;
-background-color:#ACCEAC;
 
- } 
- .background{
-width: 25%;
-height: 100%;
- background-color:#ACCEAC;
- margin-right:20px;
- margin-left: 70px;
- border-radius: 2%;
- 
- }
- .image-div{
-padding-top: 15px;
-display: flex;
-align-self: center;
+.text-img {
+    width: 100%;
+    background-color: #ACCEAC;
 
- }
- 
 
-  
+}
 
- 
+.background {
+    width: 25%;
+    height: 100%;
+    background-color: #ACCEAC;
+    margin-right: 20px;
+    margin-left: 70px;
+    border-radius: 2%;
+
+
+}
+
+.image-div {
+    padding-top: 15px;
+    display: flex;
+    align-self: center;
+
+
+}
+
+.card-paragraph {
+    font-size: 20px;
+
+}
+
+.carousel-inner img {
+    max-height: 60vh;
+    object-fit: cover;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #897E7E;
+}
 
 /*------------------FOOTER-------------------------------------*/
 footer {
     background-color: #D9D3DE;
 }
+
 footer {
     background-color: #D9D3DE;
     ;
@@ -100,32 +134,33 @@ footer {
 /*--------------------CLASS-------------------------*/
 
 .class-img {
- background-image: url("../images/ClassesBGUpdate.png");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+    background-image: url("../images/ClassesBGUpdate.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.class-img-overlay{
+.class-img-overlay {
     color: white;
     font-family: irish-grover;
 }
 
 
-.class-description{
+.class-description {
     background-color: #B5B1B4;
     margin-top: 25px;
     margin-bottom: 45px;
     border-radius: 15px;
-    padding:70px;
+    padding: 70px;
     font-family: crimson-pro;
     margin-top: 45px;
 }
-.col-class1{
+
+.col-class1 {
     background-color: pink;
     padding: 50px;
     margin-left: 50px;
@@ -135,29 +170,30 @@ footer {
     font-weight: bolder;
     text-align: center;
     margin-bottom: 35px;
-    
+
 }
-.col-class2{
+
+.col-class2 {
     background-color: pink;
     padding: 50px;
     margin-left: 70px;
     margin-right: 100px;
     border-radius: 15px;
-    font-family:irish-grover;
+    font-family: irish-grover;
     font-weight: bolder;
-    text-align:center;
+    text-align: center;
     margin-bottom: 35px;
-    
+
 }
 
-.teacher-container{
+.teacher-container {
     background-color: rgb(157, 208, 157);
     margin-top: 25px;
     margin-bottom: 45px;
     border-radius: 15px;
 }
 
-.teacher-text{
+.teacher-text {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 35px;
@@ -166,7 +202,7 @@ footer {
 
 }
 
-.teacher-rows{
+.teacher-rows {
     padding: 50px;
     font-size: 20px;
 }
@@ -183,6 +219,12 @@ footer {
 
 
 /*-market Days starts--*/
+.market-title {
+
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
 
 .heroCont {
 
@@ -202,52 +244,78 @@ footer {
 }
 
 .days-p {
-   
-    font-size: 28px;
-  font-family: "Crimson Pro", serif;
+
+    font-size: 25px;
+    font-family: "Crimson Pro", serif;
     height: 100%;
     width: 100%;
     margin-top: 0;
     margin-bottom: 30px;
-    background-color:#ACCEAC;
-     border-radius: 2%;
-    
+    background-color: #ACCEAC;
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
 
+}
 
-}.bg-tan {
-    background-color:#ACCEAC;
+.bg-tan {
+    background-color: #ACCEAC;
     padding: 0%;
 
 }
 
-.welcome-text{
-padding-top: 5%;
-padding-bottom: 5%;
-font-family: "Irish Grover", system-ui;
- font-weight: 400;
-    font-style: normal;
-
-}
-.img-text {
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-bottom: 30px;
-    width: 90%;
-    width: 90%;
-    height: 100%;
-    font-family: "Crimson Pro", serif;
-}
-.article-cont{
-    margin-bottom: 50px;
-}
-.title2{
-font-family: "Irish Grover", system-ui;
+.welcome-text {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: "Irish Grover", system-ui;
     font-weight: 400;
     font-style: normal;
-   margin-bottom: 10px;
-   margin-top: 10px;
 
+}
+
+.article-cont {
+    margin-bottom: 50px;
+}
+
+.title2 {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.img-text {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.class3 {
+
+    padding-bottom: 5%;
+}
+
+.market-img {
+    background-image: url("../images/MarketBgUpdate.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.market-img-overlay {
+    color: white;
+}
+
+@media (max-width: 991.98px) {
+    .navAlignText {
+        flex-direction: column;
+        align-items: flex-end;
+    }
 }
 
 /*-market Days End-*/
@@ -274,6 +342,7 @@ font-family: "Irish Grover", system-ui;
 .navCorrect {
     padding-top: 0;
 }
+
 .navCorrect {
     padding-top: 0;
     padding-bottom: 0;
@@ -296,13 +365,13 @@ font-family: "Irish Grover", system-ui;
 }
 
 .textBoxInv {
-   margin-top: 4%;
-   margin-bottom: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     background-color: #B5B1B4;
     border-radius: 15px;
-}  
+}
 
-.textBoxLetters{
+.textBoxLetters {
     font-size: 35px;
     text-align: center;
     padding-left: 10rem;
@@ -311,19 +380,19 @@ font-family: "Irish Grover", system-ui;
     padding-bottom: 2rem;
 }
 
-.card1Bg{
+.card1Bg {
     background-color: #EBD1D1;
 }
 
-.Card1Img{
-   height: 22rem;
-   padding-top:2rem;
-   padding-left: 1rem;
-   padding-right: 1rem;
-   background-color: #EBD1D1;
+.Card1Img {
+    height: 22rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #EBD1D1;
 }
 
-.card1Text{
+.card1Text {
     text-align: center;
     font-size: 40px;
 }
@@ -340,29 +409,29 @@ font-family: "Irish Grover", system-ui;
     margin-bottom: 10rem;
 }
 
-.greenCardBg{
+.greenCardBg {
     background-color: #ACCEAC;
 }
 
 .inventory-img {
- background-image: url("../images/inventoryBgUpdate.png");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+    background-image: url("../images/inventoryBgUpdate.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.inventory-img-overlay{
+.inventory-img-overlay {
     color: white;
     font-family: irish-grover;
 }
 
-.grid-container{
-   display:grid;
-    grid-template-columns: repeat(3,1fr);
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap:8rem;
 }
@@ -371,11 +440,32 @@ font-family: "Irish Grover", system-ui;
     font-size: 70px;
 }
 
-@media (max-width: 425px){
-    .grid-container{
-   display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap:70px;
+@media (max-width: 425px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 70px;
+    }
 }
+
+/*--footer responsive--*/
+.footer-display {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;        
+}
+
+@media (max-width: 768px) {
+  .footer-display {
+    flex-direction: column;
+    align-items: center;  
+  }
+
+  .footer-col1,
+  .footer-col2,
+  .footer-col3 {
+    width: 100%;
+    text-align: center;   
+  }
 }
