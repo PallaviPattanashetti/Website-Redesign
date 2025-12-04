@@ -485,7 +485,9 @@ footer {
 .headFont {
     font-size: 70px;
 }
-
+.insta{
+    width: 40px;
+}
 
 @media (max-width: 1024px) {
     .grid-container {
