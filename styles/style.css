@@ -604,6 +604,8 @@ footer {
 /*=====================TABLET===============================*/
     
     @media (max-width: 768px) {
+
+    /*-----------------FOOTER-----------------------*/
         footer {
     background-color: #D9D3DE;
     text-align: center;
@@ -612,6 +614,26 @@ footer {
 .footer-display {
     display: flex;
     justify-content: center;
+}
+.footer-col1 {
+    font-size: 18px;
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 100px;
+}
+
+.footer-col2 {
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+.footer-col3 {
+    font-size: 18px;
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 100px;
 }
         
         .footer-col1,
@@ -715,25 +737,9 @@ footer {
     }
 }
 
-/*--footer responsive--*/
-.footer-display {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-}
+
 
 @media (max-width: 768px) {
-    .footer-display {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-col1,
-    .footer-col2,
-    .footer-col3 {
-        width: 100%;
-        text-align: center;
-    }
 
 .grid-container {
         display: grid;
