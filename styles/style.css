@@ -51,11 +51,11 @@ body {
 
 }
 
-.text-home{
-font-family: "Crimson Pro", serif;
-font-size: 25px;
-max-width: 800px; 
- margin: 0 auto;
+.text-home {
+    font-family: "Crimson Pro", serif;
+    font-size: 25px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /*---card grid-*/
@@ -145,12 +145,12 @@ max-width: 800px;
 
 
 .my-carousel {
-    background-color: #5a5353; 
-    padding: 0 30px; 
+    background-color: #5a5353;
+    padding: 0 30px;
 }
 
 .my-carousel .row {
-    margin: 0 -20px; 
+    margin: 0 -20px;
 }
 
 .my-carousel .carousel {
@@ -161,7 +161,9 @@ max-width: 800px;
     max-height: 500px;
 }
 
-.carousel-inner, .carousel-item, .carousel-item img {
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
     height: 100%;
 }
 
@@ -335,11 +337,10 @@ footer {
     font-family: "Crimson Pro", serif;
     height: 100%;
     width: 100%;
-  margin-bottom: 30px;
-    background-color: #ACCEAC;
-    padding: 0;
+    margin-bottom: 30px;
     text-align: center;
     border-radius: 4%;
+    padding-top: 25px;
 }
 
 .bg-tan {
@@ -379,13 +380,14 @@ footer {
     padding-bottom: 5%;
 }
 
-.market-article{
+.market-article {
 
- font-family: "Crimson Pro", serif;
+    font-family: "Crimson Pro", serif;
     font-optical-sizing: auto;
     font-style: normal;
 
 }
+
 .market-img {
     background-image: url("../images/MarketBgUpdate.png");
     background-size: cover;
@@ -558,14 +560,15 @@ footer {
     .navbar-collapse {
         padding: 10px;
     }
-  .textBoxLetters {
-    font-size: 10px;
-    text-align: center;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
+
+    .textBoxLetters {
+        font-size: 10px;
+        text-align: center;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
 
     /*------------------Class Responsive-------------------*/
     .class-text {
@@ -840,16 +843,17 @@ footer {
     .cardAlign {
         justify-self: center;
     }
-.toggleColor{
-    background-color: #ACCEAC;
-}
- .textBoxLetters {
-    font-size: 20px;
-    text-align: center;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-}
 
+    .toggleColor {
+        background-color: #ACCEAC;
+    }
+
+    .textBoxLetters {
+        font-size: 20px;
+        text-align: center;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+}
