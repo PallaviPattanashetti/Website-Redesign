@@ -558,6 +558,14 @@ footer {
     .navbar-collapse {
         padding: 10px;
     }
+  .textBoxLetters {
+    font-size: 10px;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
 
     /*------------------Class Responsive-------------------*/
     .class-text {
@@ -813,16 +821,6 @@ footer {
         align-items: center;
     }
 
-
-    .textBoxLetters {
-        font-size: 35px;
-        text-align: center;
-        padding-left: 0rem;
-        padding-right: 0rem;
-        padding-top: 1rem;
-        padding-bottom: 2rem;
-    }
-
     .cardAlign {
         justify-self: center;
     }
@@ -842,8 +840,16 @@ footer {
     .cardAlign {
         justify-self: center;
     }
-
-    .toggleColor {
-        background-color: #ACCEAC;
-    }
+.toggleColor{
+    background-color: #ACCEAC;
 }
+ .textBoxLetters {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+}
+
