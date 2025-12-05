@@ -29,9 +29,11 @@ body {
 .home-title {
 
     font-family: "Irish Grover", system-ui;
+    font-size: 50px;
     font-weight: 400;
     font-style: normal;
     color: white;
+    text-align: center;
 }
 
 .titlepage {
